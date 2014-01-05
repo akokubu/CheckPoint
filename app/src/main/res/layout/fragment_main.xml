@@ -8,9 +8,16 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="jp.co.longposition.check.MainActivity$PlaceholderFragment">
 
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--
     <TextView
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" />-->
 
 </RelativeLayout>
